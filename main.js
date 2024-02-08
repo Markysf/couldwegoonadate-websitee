@@ -25,7 +25,7 @@ btnNo.addEventListener("mouseover", (event) => {
     newTop = getRandomNumber(0, containerHeight - btnHeight);
   }
 
-  while (Math.abs(newLeft - btnLeft) < containerWidth / 3) {
+  while (Math.abs(newLeft - btnLeft) < containerWidth / 1) {
     newLeft = getRandomNumber(0, containerWidth - btnWidth);
   }
 
